@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Hero  from "./components/Hero";
+import {Routes,Route} from "react-router-dom";
+import Projects from "./components/pages/Projects";
+import Contact from "./components/pages/Contact";
+import About from "./components/pages/About";
+import Home from "./components/pages/Home";
+import MovieInfo from "./components/pages/MovieInfo";
+import ActorInfo from "./components/pages/ActorInfo";
+import SearchResult from "./components/pages/SearchResult";
+import ToDoList from "./components/ToDoList";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<>
+  <Hero/>
+  <Routes>>
+  <Route path={"/"} element={<Home/>}/>
+    <Route path={"/about"} element={<About/>}/>
+    <Route path={"/projects"} element={<Projects/>}/>
+    <Route path={"/contacts"} element={<Contact/>}/>
+    <Route path={"/ToDoList"} element={<ToDoList/>}/>
+
+    <Route path={"/movie_info/:movieId"} element={<MovieInfo/>}/>
+    <Route path={"/actor_info/:actorId"} element={<ActorInfo/>}/>
+    <Route path={"/movie_search/:movie_name"} element={<SearchResult/>}/>
+
+
+  </Routes>
+</>
   );
 }
 
