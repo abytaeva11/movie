@@ -18,7 +18,12 @@ const  Contact=()=>{
         getUpComing()
     },[])
     return(
-        <div className="container">
+        <div className="container"
+             style={{
+                 backgroundImage: "url(\"https://catherineasquithgallery.com/uploads/posts/2023-01/1674282844_catherineasquithgallery-com-p-krasivii-fon-temno-serii-foto-147.jpg\")"
+
+             }}
+        >
             <h1> Now playing movies</h1>
             <div className="row">
                 {nowUpPLaying.map(movie=> <MovieCard movie={movie} key={movie.id}/> )}

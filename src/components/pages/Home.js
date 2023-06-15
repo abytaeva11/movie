@@ -25,7 +25,9 @@ useEffect(()=>{
     window.scroll(0,0)
 },[page,language])
     return(
-        <div className="container">
+        <div className="container" style={{
+            backgroundImage: "url(\"https://catherineasquithgallery.com/uploads/posts/2023-01/1674282844_catherineasquithgallery-com-p-krasivii-fon-temno-serii-foto-147.jpg\")"
+        }}>
             <h1>Home page </h1>
 
 <div className="row">

@@ -20,7 +20,6 @@ setResult(data.results)
     return (
         <div className="container">
             <h1> Search Results page </h1>
-
             <div className="row">
                 {result?.map(movie=> <MovieCard movie={movie} key={movie.id}/> )}
 

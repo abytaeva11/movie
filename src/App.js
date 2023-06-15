@@ -8,7 +8,6 @@ import Home from "./components/pages/Home";
 import MovieInfo from "./components/pages/MovieInfo";
 import ActorInfo from "./components/pages/ActorInfo";
 import SearchResult from "./components/pages/SearchResult";
-import ToDoList from "./components/ToDoList";
 function App() {
   return (
 <>
@@ -18,7 +17,6 @@ function App() {
     <Route path={"/about"} element={<About/>}/>
     <Route path={"/projects"} element={<Projects/>}/>
     <Route path={"/contacts"} element={<Contact/>}/>
-    <Route path={"/ToDoList"} element={<ToDoList/>}/>
 
     <Route path={"/movie_info/:movieId"} element={<MovieInfo/>}/>
     <Route path={"/actor_info/:actorId"} element={<ActorInfo/>}/>

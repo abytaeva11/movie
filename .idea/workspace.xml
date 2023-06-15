@@ -96,11 +96,26 @@
       <workItem from="1682403904576" duration="55000" />
       <workItem from="1682528163412" duration="177000" />
       <workItem from="1683566792947" duration="61000" />
-      <workItem from="1686151383049" duration="2038000" />
+      <workItem from="1686151383049" duration="3932000" />
+      <workItem from="1686165814243" duration="25000" />
+      <workItem from="1686818608745" duration="1216000" />
+      <workItem from="1686820869346" duration="3346000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/pages/About.js</url>
+          <line>26</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

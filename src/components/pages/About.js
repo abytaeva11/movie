@@ -18,7 +18,11 @@ const  About=()=>{
         getTopRated()
     },[language])
     return(
-        <div className="container"> 
+        <div className="container"
+        style={{
+            backgroundImage: "url(\"https://catherineasquithgallery.com/uploads/posts/2023-01/1674282844_catherineasquithgallery-com-p-krasivii-fon-temno-serii-foto-147.jpg\")"
+
+        }}>
             <h1> Top rated movies page</h1>
             <div className="row">
                 {        topRated?.map(movie=> <MovieCard movie={movie} key={movie.id}/> )

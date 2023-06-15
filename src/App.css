@@ -2,7 +2,15 @@
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
-/*background-image: url("./images/");*/
+  /*background-image: url("https://catherineasquithgallery.com/uploads/posts/2023-01/1674282844_catherineasquithgallery-com-p-krasivii-fon-temno-serii-foto-147.jpg" );*/
+  /*background: linear-gradient(105deg, #D78B59, #595FEB);*/
+}
+h1{
+  color: white;
+}
+p{
+  color: white;
+  font-size: 25px;
 }
 body{
 
@@ -22,9 +30,12 @@ a{
 .hero-links{
   margin-left: 40px;
   color: black;
+border: black;
+  background: white;
+
 }
 .active{
-  background-color: greenyellow;
+  background-color: dimgray;
   color: white;
   padding: 5px;
   border-radius: 5px;
